@@ -30,7 +30,6 @@ class VideoList extends Component {
   }
 
   render() {
-    console.log(this.state.videoList);
     if (this.state.videoList) {
       return (
         <div className="episodes-container">
