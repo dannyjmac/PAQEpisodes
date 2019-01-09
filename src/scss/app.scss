@@ -3,6 +3,8 @@ body {
   font-family: futura;
   font-weight: 600;
   color: white;
+  padding: 0px;
+  margin: 0px;
 }
 .navbar {
   text-align: center;
@@ -62,3 +64,11 @@ body {
     margin: 40px;
   }
 }
+
+.charts {
+  margin: 20px;
+  &__title {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
